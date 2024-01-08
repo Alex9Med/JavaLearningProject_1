@@ -39,7 +39,9 @@ public class ManageAutoService {
         Car mercedesPNP878 = new Car("Mercedes S-class", 215463478, client1);
         Car renaultMZM123 = new Car("Renault Scenic", 165498498,
                 new Person("Kolea", 373147258));
+        Car teslaXOX000 = new Car("Tesla CyberTruck", 154849168, clientX);
         System.out.println("Automobilul nostru este: " + mercedesPNP878.mark + "    Vin-Code: " + mercedesPNP878.vinCode + "   Proprietarul: " + mercedesPNP878.owner.name + " " + " Tel: " + mercedesPNP878.owner.phoneNumber);
         System.out.println("Automobilul nostru este: " + renaultMZM123.mark + "    Vin-Code: " + renaultMZM123.vinCode + "   Proprietarul: " + renaultMZM123.owner.name + " " + " Tel: " + renaultMZM123.owner.phoneNumber);
+        System.out.println("Automobilul nostru este: " + teslaXOX000.mark + "    Vin-Code: " + teslaXOX000.vinCode + "   Proprietarul: " + teslaXOX000.owner.name + " " + " Tel: " + teslaXOX000.owner.phoneNumber);
     }
 }
